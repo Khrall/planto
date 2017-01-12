@@ -21,6 +21,6 @@ object Boot extends App {
   IO(Http) ? Http.Bind(service, interface = "localhost", port = 8080)
   
   // Scheduler
-  val plantoScheduler = new PlantoScheduler(system)
+  val plantoScheduler = new PlantoScheduler()
   plantoScheduler.start()
 }

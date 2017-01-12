@@ -21,5 +21,6 @@ libraryDependencies ++= {
 }
 
 libraryDependencies += "org.mongodb" %% "casbah" % "3.1.1"
+libraryDependencies += "com.github.philcali" %% "cronish" % "0.1.3"
 
 Revolver.settings
